@@ -1452,6 +1452,20 @@
                                 <control id="lea_salesstate" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="lea_salesstate" disabled="false" />
                               </cell>
                             </row>
+                            <row>
+                              <cell id="{b511eda7-7ded-1954-7233-da574986b9e9}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Currency" languagecode="1033" />
+                                </labels>
+                                <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" uniqueid="{6323cba1-01ec-b8c4-5bb7-d3d22d320a74}" />
+                              </cell>
+                              <cell id="{9c6d94da-0bac-bd4e-434a-8779cc54c58e}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Retail Price (Base)" languagecode="1033" />
+                                </labels>
+                                <control id="lea_retailprice_base" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="lea_retailprice_base" disabled="false" />
+                              </cell>
+                            </row>
                           </rows>
                         </section>
                       </sections>
